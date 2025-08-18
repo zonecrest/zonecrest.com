@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or site.title }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <main>
+        {{ content | safe }}
+    </main>
+    
+    <!-- Choice popup (intermediate) -->
+    <div id="choice-popup" class="contact-form hidden">
+        <div class="form-overlay">
+            <div class="form-container choice-container">
+                <button class="close-form" onclick="closeChoicePopup()">&times;</button>
+                <h3>How would you like to proceed?</h3>
+                <div class="choice-buttons">
+                    <button class="choice-btn primary" onclick="startOnlineReview()">
+                        <strong>Start Online Review</strong>
+                        <span>Quick digital assessment</span>
+                    </button>
+                    <button class="choice-btn secondary" onclick="arrangeConsultation()">
+                        <strong>Arrange Consultation</strong>
+                        <span>Personal discussion of your needs</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contact form for consultation -->
+    <div id="contact-form" class="contact-form hidden">
+        <div class="form-overlay">
+            <div class="form-container">
+                <button class="close-form" onclick="closeContactForm()">&times;</button>
+                <h3>Arrange Your Consultation</h3>
+                <form id="webhook-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Your Phone">
+                    <textarea name="message" placeholder="Tell me about your needs" rows="4"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/script.js"></script>
+</body>
+</html>

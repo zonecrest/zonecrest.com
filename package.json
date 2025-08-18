@@ -1,0 +1,12 @@
+{
+  "name": "landing-page-template",
+  "version": "1.0.0",
+  "description": "Eleventy template for service landing pages",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "default": [
+    {
+      "name": "IBM",
+      "logo": "/assets/client-logos/ibm.svg"
+    },
+    {
+      "name": "Land Rover", 
+      "logo": "/assets/client-logos/land_rover.png"
+    },
+    {
+      "name": "Elsevier",
+      "logo": "/assets/client-logos/elsevier.svg"
+    },
+    {
+      "name": "BNP Paribas Fortis",
+      "logo": "/assets/client-logos/bnp_paribas_fortis.jpeg"
+    },
+    {
+      "name": "Telenet",
+      "logo": "/assets/client-logos/telenet.svg"
+    },
+    {
+      "name": "George Washington University",
+      "logo": "/assets/client-logos/george_washington_university.png"
+    },
+    {
+      "name": "Bodycote",
+      "logo": "/assets/client-logos/bodycote.jpg"
+    },
+    {
+      "name": "Stoneridge",
+      "logo": "/assets/client-logos/stoneridge.png"
+    },
+    {
+      "name": "ATOS",
+      "logo": "/assets/client-logos/atos.svg"
+    },
+    {
+      "name": "American Management Systems",
+      "logo": "/assets/client-logos/american_management_systems.png"
+    },
+    {
+      "name": "NHS Scotland",
+      "logo": "/assets/client-logos/nhs_scotland.png"
+    },
+    {
+      "name": "Ministry of Defence",
+      "logo": "/assets/client-logos/ministry_of_defence.svg"
+    },
+    {
+      "name": "Marconi",
+      "logo": "/assets/client-logos/marconi.svg"
+    }
+  ]
+}
