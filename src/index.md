@@ -1,37 +1,53 @@
 ---
 layout: home.njk
-title: "Great Leaders See What Others Miss"
-description: "Join the club - trusted advisor with 50 years experience from shop floor to C-suite"
+title: "AI Is Rewriting the Tech Playbook"
+description: "If you're in software or tech, AI isn't just another tool — it's a turning point. Here's how to stay relevant, and thrive."
 ---
 
-### Great leaders 
-# See What Others Miss 
-### Don't be one of those who fail
+### In Tech, Change Is Nothing New  
+# But This Time, It’s Personal  
+### Don’t Wait to See Where You Stand  
 
-You have a great vision for your business, and are already on your way to being there. As you start to imagine how it will feel when you achieve your goal, you begin to notice how quickly things become possible when clarity emerges.
+If you’re in software, engineering, or tech, you already know the story: AI is moving fast — and it’s not just automating tasks, it’s changing what’s valued.
+
+Code that used to take hours can now be generated in seconds. Entire workflows are being redefined. And the uncomfortable question is starting to surface:
+
+> *“Where does that leave me?”*
+
+If you’ve been feeling a mix of curiosity, pressure, and quiet unease… you’re not alone. The rules are being rewritten. But that doesn’t mean you’re out of the game.
+
+It means the game is evolving — and it’s time to evolve with it.
 
 ![Business Success](images/guiding_to_greatness.png)
 
-## Easier than you might think
+## AI Is Disruptive — But It Can Be a Career Catalyst  
 
-Sometimes what you need most is someone who truly gets it - someone who's walked the path from the ground up and can sit alongside you to explore what's really possible. Not another consultant with theories, but a trusted advisor who understands the weight of decisions you carry and the vision that drives you. 
+In the right hands, AI doesn’t replace talent — it amplifies it.
 
-Together, we can examine your business with complete confidentiality, spotting the connections and opportunities that become obvious when you have the right perspective. It's about having a safe space to think through challenges with someone who's been there, made those decisions, and learned what actually works in the real world.
+But to stay relevant, you need more than just prompt-engineering tips or another tool in your stack. You need strategic clarity: where your skills create value in the *new* tech economy, not the old one.
 
-## Exceptional Experience
+I’ve spent decades at the intersection of software, systems, and strategy — and I’ve seen first-hand how people thrive when they adapt early.
 
-Over my 50-year journey, I've worked alongside everyone from solo entrepreneurs to FTSE 100 executives and leaders at World Top 10 Banks. Whether I was running the operation or working as part of the team, I've tried to learn from every person and every situation. That breadth of experience helps me quickly see patterns and connections that others often miss.
+Now I work with professionals like you to find the *next* edge — and make sure you're not just keeping up, but leading the shift.
 
-## Take the Fast Track
+## Move from Disrupted to In-Demand  
 
-While others drill deep into single disciplines, I take the broader view - understanding how your business strategy, technology systems, and people dynamics either reinforce each other or work at cross-purposes. That's where the biggest opportunities usually hide.
+The truth? Most software professionals are still trying to make sense of what’s happening — and that hesitation creates opportunity for those who act.
 
-## Trusted by Leaders Across Industries
+With a clear plan, you can reposition yourself fast: reframe your skills, align with where the value is shifting, and build the kind of career resilience that keeps you at the table no matter how the tech changes.
+
+## You’re Closer Than You Think  
+
+You don’t need to reinvent yourself. You just need to refocus — and act.
+
+What you’ve already built still matters. But now’s the time to align it with where things are going, not where they’ve been.
+
+## Trusted by Leaders Across Tech and Business
 
 {% include "client-carousel.njk" %}
 
 *All trademarks used are the property of their respective owners, and their use here does not imply endorsement.*
 
-## Ready for a Confidential Conversation?
+## Your Next Move Starts Here  
 
-**All conversations are completely confidential. No obligation, no pressure - just an experienced business professional offering a different viewpoint.**
+**Click below to learn how developers and tech pros are turning AI disruption into opportunity — and how you can too.**

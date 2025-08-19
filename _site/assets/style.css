@@ -8,8 +8,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
-    color: #1D3B60;
-    background: #FCF7EF;
+    color: #0A0F1C;
+    background: #F9FAFB;
 }
 
 /* Header banner */
@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     padding: 2rem;
-    background: #1D3B60;
+    background: #0A0F1C;
     margin-bottom: 2rem;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .site-title {
-    color: #FCF7EF;
+    color: #F9FAFB;
     font-size: 2.2rem;
     margin: 0;
     text-align: left;
@@ -57,20 +57,20 @@ body {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #1D3B60;
+    color: #0A0F1C;
     text-align: center;
 }
 
 h2 {
     font-size: 1.8rem;
     margin: 2rem 0 1rem 0;
-    color: #34495e;
+    color: #1F2937;
 }
 
 h3 {
     font-size: 1.3rem;
     margin: 1.5rem 0 0.5rem 0;
-    color: #1D3B60;
+    color: #0A0F1C;
 }
 
 p {
@@ -79,7 +79,7 @@ p {
 }
 
 strong {
-    color: #1D3B60;
+    color: #0A0F1C;
 }
 
 /* Images */
@@ -107,13 +107,13 @@ li {
     text-align: center;
     margin: 3rem 0 2rem 0;
     padding: 2rem;
-    background: #1D3B60;
+    background: #0A0F1C;
     border-radius: 12px;
 }
 
 .cta-button {
-    background: #FCF7EF;
-    color: #601d38;
+    background: #F9FAFB;
+    color: #3B82F6;
     border: none;
     padding: 1rem 2rem;
     font-size: 1.2rem;
@@ -196,13 +196,13 @@ li {
 .form-container input:focus,
 .form-container textarea:focus {
     outline: none;
-    border-color: #601d38;
+    border-color: #3B82F6;
 }
 
 .form-container button[type="submit"] {
     width: 100%;
-    background: linear-gradient(135deg, #601d38 0%, #764ba2 100%);
-    color: #FCF7EF;
+    background: linear-gradient(135deg, #3B82F6 0%, #764ba2 100%);
+    color: #F9FAFB;
     border: none;
     padding: 1rem;
     font-size: 1.1rem;
@@ -234,18 +234,18 @@ li {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem;
-    border: 2px solid #1D3B60;
+    border: 2px solid #0A0F1C;
     border-radius: 8px;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
-    color: #1D3B60;
+    color: #0A0F1C;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .choice-btn:hover {
-    background: #1D3B60;
+    background: #0A0F1C;
     color: #ffffff;
     transform: translateY(-2px);
 }
@@ -256,15 +256,15 @@ li {
 }
 
 .choice-btn.primary {
-    border-color: #1D3B60;
+    border-color: #0A0F1C;
 }
 
 .choice-btn.secondary {
-    border-color: #34495e;
+    border-color: #1F2937;
 }
 
 .choice-btn.secondary:hover {
-    background: #34495e;
+    background: #1F2937;
     color: #ffffff;
 }
 
