@@ -1,3 +1,6 @@
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 /* Reset and base styles */
 * {
     margin: 0;
@@ -6,10 +9,10 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
-    color: #0A0F1C;
-    background: #F9FAFB;
+    color: #0F172A;
+    background: #FFFFFF;
 }
 
 /* Header banner */
@@ -17,8 +20,20 @@ body {
     display: flex;
     align-items: center;
     padding: 2rem;
-    background: #0A0F1C;
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
     margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-banner::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, #06B6D4 50%, transparent 100%);
 }
 
 .logo-section {
@@ -39,7 +54,7 @@ body {
 }
 
 .site-title {
-    color: #F9FAFB;
+    color: #FFFFFF;
     font-size: 2.2rem;
     margin: 0;
     text-align: left;
@@ -57,20 +72,20 @@ body {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #0A0F1C;
+    color: #0F172A;
     text-align: center;
 }
 
 h2 {
     font-size: 1.8rem;
     margin: 2rem 0 1rem 0;
-    color: #1F2937;
+    color: #64748B;
 }
 
 h3 {
     font-size: 1.3rem;
     margin: 1.5rem 0 0.5rem 0;
-    color: #0A0F1C;
+    color: #0F172A;
 }
 
 p {
@@ -79,7 +94,7 @@ p {
 }
 
 strong {
-    color: #0A0F1C;
+    color: #0F172A;
 }
 
 /* Images */
@@ -107,13 +122,25 @@ li {
     text-align: center;
     margin: 3rem 0 2rem 0;
     padding: 2rem;
-    background: #0A0F1C;
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
     border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, #06B6D4 50%, transparent 100%);
 }
 
 .cta-button {
-    background: #F9FAFB;
-    color: #3B82F6;
+    background: #FFFFFF;
+    color: #06B6D4;
     border: none;
     padding: 1rem 2rem;
     font-size: 1.2rem;
@@ -196,13 +223,13 @@ li {
 .form-container input:focus,
 .form-container textarea:focus {
     outline: none;
-    border-color: #3B82F6;
+    border-color: #06B6D4;
 }
 
 .form-container button[type="submit"] {
     width: 100%;
-    background: linear-gradient(135deg, #3B82F6 0%, #764ba2 100%);
-    color: #F9FAFB;
+    background: linear-gradient(135deg, #06B6D4 0%, #B4694D 100%);
+    color: #FFFFFF;
     border: none;
     padding: 1rem;
     font-size: 1.1rem;
@@ -213,7 +240,7 @@ li {
 
 .form-container button[type="submit"]:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
 }
 
 /* Choice Popup Styles */
@@ -234,18 +261,18 @@ li {
     flex-direction: column;
     align-items: center;
     padding: 1.5rem;
-    border: 2px solid #0A0F1C;
+    border: 2px solid #0F172A;
     border-radius: 8px;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
-    color: #0A0F1C;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #0F172A;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 .choice-btn:hover {
-    background: #0A0F1C;
+    background: #0F172A;
     color: #ffffff;
     transform: translateY(-2px);
 }
@@ -256,15 +283,15 @@ li {
 }
 
 .choice-btn.primary {
-    border-color: #0A0F1C;
+    border-color: #0F172A;
 }
 
 .choice-btn.secondary {
-    border-color: #1F2937;
+    border-color: #64748B;
 }
 
 .choice-btn.secondary:hover {
-    background: #1F2937;
+    background: #64748B;
     color: #ffffff;
 }
 

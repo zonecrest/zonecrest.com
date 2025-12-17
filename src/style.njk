@@ -1,6 +1,9 @@
 ---
 permalink: /assets/style.css
 ---
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 /* Reset and base styles */
 * {
     margin: 0;
@@ -20,8 +23,20 @@ body {
     display: flex;
     align-items: center;
     padding: 2rem;
-    background: {{ branding.primary1 }};
+    background: linear-gradient(135deg, {{ branding.gradientStart }} 0%, {{ branding.gradientEnd }} 100%);
     margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-banner::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, {{ branding.highlight }} 50%, transparent 100%);
 }
 
 .logo-section {
@@ -110,8 +125,20 @@ li {
     text-align: center;
     margin: 3rem 0 2rem 0;
     padding: 2rem;
-    background: {{ branding.primary1 }};
+    background: linear-gradient(135deg, {{ branding.gradientStart }} 0%, {{ branding.gradientEnd }} 100%);
     border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, {{ branding.highlight }} 50%, transparent 100%);
 }
 
 .cta-button {
@@ -204,7 +231,7 @@ li {
 
 .form-container button[type="submit"] {
     width: 100%;
-    background: linear-gradient(135deg, {{ branding.highlight }} 0%, #764ba2 100%);
+    background: linear-gradient(135deg, {{ branding.highlight }} 0%, {{ branding.accent }} 100%);
     color: {{ branding.background }};
     border: none;
     padding: 1rem;
@@ -216,7 +243,7 @@ li {
 
 .form-container button[type="submit"]:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
 }
 
 /* Choice Popup Styles */

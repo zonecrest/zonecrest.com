@@ -1,9 +1,12 @@
 {
-  "font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-  "primary1": "#0A0F1C",
-  "primary2": "#1F2937",
-  "background": "#F9FAFB",
-  "highlight": "#3B82F6",
-  "siteTitle": "Futureproof Your Tech Career",
+  "font": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  "primary1": "#0F172A",
+  "primary2": "#64748B",
+  "background": "#FFFFFF",
+  "highlight": "#06B6D4",
+  "accent": "#B4694D",
+  "gradientStart": "#0F172A",
+  "gradientEnd": "#1E293B",
+  "siteTitle": "Zonecrest Ltd - Strategic AI Consultancy",
   "logoImage": "images/80x80logo.png"
 }
