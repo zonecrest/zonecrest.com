@@ -13,6 +13,12 @@ For over 30 years, Zonecrest has helped organisations design, build and run syst
 
 ---
 
+> *"This is not at all what I had imagined. This is so much better than I could have ever imagined."*
+>
+> — Hospital Stakeholder
+
+---
+
 ## What we do
 
 We work with leadership and product teams who need to get important technology done properly:
