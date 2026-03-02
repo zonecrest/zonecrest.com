@@ -46,7 +46,7 @@ Our work has included:
 - Leading turnaround of distressed projects and under‑performing platforms  
 - Coaching internal teams through adoption of new technologies and ways of working  
 
-A rotating marquee of client logos on this site gives a sense of who has trusted us over the years.
+Here are some of the clients who have trusted us over the years.
 {% include "client-carousel.njk" %}
 
 ---
@@ -85,14 +85,4 @@ If you’d like to explore a project or see case studies closer to your context,
 
 ---
 
-## Design notes
-
-The site uses:
-
-- **Font:** Inter (`{{ site.brand.font }}` if you bind from your JSON)  
-- **Primary colours:** `{{ site.brand.primary1 }}` / `{{ site.brand.primary2 }}` for headings and UI  
-- **Highlight:** `{{ site.brand.highlight }}` for links and key accents  
-- **Accent:** `{{ site.brand.accent }}` for subtle emphasis and call‑to‑action elements  
-
-A simple hero section with a subtle dark gradient background (`{{ site.brand.gradientStart }}` → `{{ site.brand.gradientEnd }}`) and the existing logo marquee below will keep the page visually consistent with your current brand.
 
