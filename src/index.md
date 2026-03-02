@@ -1,52 +1,98 @@
 ---
 layout: home.njk
-title: "Strategic AI Consultancy & Navigation | Zonecrest Ltd"
+title: Zonecrest Ltd – Increasing Business Value with AI
 description: "Move beyond the hype. Zonecrest provides strategic AI advisory, governance, and implementation roadmaps for leaders looking to build sustainable competitive advantage."
 ---
 
-# Who is Navigating Your Path Through the AI Revolution?
+# Zonecrest Ltd  
+### Increasing business value with AI, software and transformation
 
-### Turning Artificial Intelligence from an existential threat into your definitive competitive advantage.
+For over 30 years, Zonecrest has helped organisations design, build and run systems that *ship*, *scale* and *move the numbers that matter*.
 
-![Modern executive boardroom overlooking city skyline](images/strategic-ai-adoption.png)
-
-## The Landscape Has Shifted
-
-You do not need another lecture on how fast AI is moving. You see it every day. New tools, new models, and new disruptions are launching weekly. 
-
-For leadership teams, the challenge is no longer *access* to technology—it is **strategic clarity**. 
-
-While others are distracted by the hype of the latest tools, market leaders are asking the hard questions:
-* How do we integrate AI without exposing our data?
-* Which use cases actually drive ROI vs. just wasting time?
-* How do we build a governance framework that scales?
-
-**Knowing change is coming is different from knowing how to direct it.**
+> From first prototypes to enterprise‑grade platforms, we turn ambitious ideas into working software and AI solutions.
 
 ---
 
-## Strategic AI Consultancy
-Zonecrest Ltd bridges the gap between technical potential and business value. We are not just a technology provider; we are your strategic navigator.
+## What we do
 
-We move beyond "implementation" to focus on **integration and impact**. By aligning AI capabilities with your core business objectives, we help you build an organization that is not just resilient to disruption, but fueled by it.
+We work with leadership and product teams who need to get important technology done properly:
 
-### Our Core Focus
-* **Strategic Advisory:** Identifying high-impact use cases that align with your commercial goals.
-* **Risk & Governance:** navigating the ethical, legal, and operational complexities of AI adoption.
-* **Future Readiness:** Building the roadmaps that ensure your organization leads the market rather than reacting to it.
+- **Software architecture & development**  
+  Design and delivery of robust, maintainable applications and services – from greenfield builds to modernising legacy platforms.
+
+- **Applied AI & automation**  
+  Practical use of language models, orchestration tools and analytics to reduce friction, improve decisions and enable new products.
+
+- **Digital transformation & advisory**  
+  Helping organisations align technology, process and people – so strategies and slide decks become real‑world systems.
+
+- **Embedded leadership & coaching**  
+  Acting as interim CTO, programme lead or senior architect to accelerate internal teams and de‑risk complex initiatives.
 
 ---
 
-## Trusted by Leaders in Tech & Business
-We have spent decades at the intersection of critical systems and corporate strategy. Our methodology is grounded in experience with some of the world's most demanding organizations.
+## A track record across sectors
 
+Over three decades we’ve worked with organisations in:
+
+- Automotive and manufacturing  
+- Financial services and fintech  
+- Healthcare and life sciences  
+- Professional services and technology‑led scale‑ups  
+
+Our work has included:
+
+- Architecting and delivering production systems in regulated environments  
+- Leading turnaround of distressed projects and under‑performing platforms  
+- Coaching internal teams through adoption of new technologies and ways of working  
+
+A rotating marquee of client logos on this site gives a sense of who has trusted us over the years.
 {% include "client-carousel.njk" %}
 
-*All trademarks used are the property of their respective owners, and their use here does not imply endorsement.*
+---
+
+## Public sector & AI: the Ghana example
+
+One current strand of our work applies this experience to **public‑sector and revenue administration**.
+
+Zonecrest is the technical delivery vehicle behind the **Voice‑First Tax Assistant for the Ghana Revenue Authority** – a multilingual assistant that helps citizens understand and meet their tax obligations via:
+
+- Natural speech over a standard phone call  
+- Simple chat and voice‑note interfaces  
+- Web channels where appropriate  
+
+The project draws on core strengths we’ve developed over time:
+
+- Designing mission‑critical, auditable systems  
+- Integrating with complex existing platforms instead of replacing them  
+- Applying AI carefully in high‑stakes, regulated environments  
+
+It is one example of how we use established engineering discipline to make new AI‑driven services reliable and governable.
 
 ---
 
-## Chart Your Course
-The path forward requires more than just tools; it requires a navigator. 
+## How we work
 
-Whether you need to validate your current strategy, upskill your executive team, or build a roadmap from scratch, the conversation starts here.
+Regardless of sector, a few principles are constant:
+
+- **Outcome‑first.** We start from the result you need – revenue, cost, risk, experience – not from a specific technology.  
+- **Collaborative.** We work with your teams and constraints, not in a vacuum.  
+- **Transferable.** Wherever possible, we design for handover so your people can own and extend what we build.  
+
+If you’d like to explore a project or see case studies closer to your context, we’re happy to share more.
+
+[Contact Zonecrest](mailto:info@zonecrest.com)
+
+---
+
+## Design notes
+
+The site uses:
+
+- **Font:** Inter (`{{ site.brand.font }}` if you bind from your JSON)  
+- **Primary colours:** `{{ site.brand.primary1 }}` / `{{ site.brand.primary2 }}` for headings and UI  
+- **Highlight:** `{{ site.brand.highlight }}` for links and key accents  
+- **Accent:** `{{ site.brand.accent }}` for subtle emphasis and call‑to‑action elements  
+
+A simple hero section with a subtle dark gradient background (`{{ site.brand.gradientStart }}` → `{{ site.brand.gradientEnd }}`) and the existing logo marquee below will keep the page visually consistent with your current brand.
+

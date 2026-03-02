@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm start)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nUpdate branding to Zonecrest strategic AI consultancy palette\n\n- Apply new brand colors from palette document (Abyssal Slate, Strategic\n  Concrete, Neural Cyan, Burnished Copper)\n- Switch to Inter font family for modern, professional typography\n- Replace flat header/CTA backgrounds with gradient \"Pulse\" effect\n- Add cyan accent lines for digital/AI aesthetic\n- Update site content for Zonecrest Ltd strategic positioning\n- Add new hero image for AI consultancy theme\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
